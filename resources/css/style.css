@@ -26,7 +26,8 @@ header{
 }
 
 h1{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 2%;
     color: aliceblue;
     font-size: 240%; /*Global font-size = 20px, h1 font-size = [24 x 2 = 48px]*/
     font-weight: 300;
@@ -43,6 +44,39 @@ h1{
     left: 10%;
 }
 
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 5%;
+    color: aliceblue;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    margin-right: 2%;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover{
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+    color: aliceblue;
+}
+
+.btn:active{
+    color:darkslategrey;
+}
 
 .logo-image{
     float:left;
@@ -65,3 +99,4 @@ nav li{
     display: inline-block;
     margin-left: 20px;
 }
+
