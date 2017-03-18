@@ -1,0 +1,10 @@
+/*************************/
+/* Header */
+/*************************/
+- Put text on an image : make image darker
+- Make image as high as browser viewport
+- Vertically a horizontally centered box
+- Design buttons
+- Link states: link, visited, hover, active
+- CSS3 transitions
+- Simple Navigation
