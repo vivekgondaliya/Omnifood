@@ -8,3 +8,9 @@
 - Link states: link, visited, hover, active
 - CSS3 transitions
 - Simple Navigation
+
+/*************************/
+/* Feature Section */
+/*************************/
+- :after pseudo class
+- Use icons
