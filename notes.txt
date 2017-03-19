@@ -9,8 +9,16 @@
 - CSS3 transitions
 - Simple Navigation
 
+
 /*************************/
 /* Feature Section */
 /*************************/
 - :after pseudo class
 - Use icons
+
+
+/*************************/
+/* Favorites Section */
+/*************************/
+- grid of images
+- "zoom-in" transition 
