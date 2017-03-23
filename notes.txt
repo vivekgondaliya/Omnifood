@@ -22,3 +22,23 @@
 /*************************/
 - grid of images
 - "zoom-in" transition 
+
+
+/*************************/
+/* Responsive Web Design */
+/*************************/
+<1200px
+- Hero text width and padding
+- row padding
+
+<1024px
+- Reduce body font-size and applying padding for smaller text and less white-space
+- Edit section-step with some margins
+- Increase iphone Size for better image view.
+- Cities Font Icon margin and width. Reduce size for city-feature text.
+- Fill up the whitespace for plan-box
+- GOAL: Decrease text size and white-space by increasing width or decreasing margins, font-size
+
+<768px
+
+<480px
