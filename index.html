@@ -11,17 +11,17 @@
     </head>
     <body>
         <header>
-            <nav class="sticky">
+            <nav>
                 <div class="row">
                     <img
                     class="logo-image" src="resources/img/logo-white.png" alt="logo-image" />
                     <img
                     class="logo-image-black" src="resources/img/logo.png" alt="logo-image-black" />
                     <ul class="main-nav">
-                        <li class="nav-item"><a href="#">Food Delivery</a></li>
+                        <li class="nav-item"><a href="#features">Food Delivery</a></li>
                         <li class="nav-item"><a href="#steps">How It Works</a></li>
                         <li class="nav-item"><a href="#cities">Our Cities</a></li>
-                        <li class="nav-item"><a href="#">Sign Up</a></li>
+                        <li class="nav-item"><a href="#signup">Sign Up</a></li>
                     </ul>
                 </div>
             </nav>
@@ -32,7 +32,7 @@
             </div>
         </header>
         
-        <section class="section-features">
+        <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
@@ -294,7 +294,7 @@
             </div>
         </section>
         
-        <section class="section-form">
+        <section class="section-form" id="signup">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
@@ -393,5 +393,12 @@
             </div>
             
         </footer>
+        
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" defer></script>
+        <script src="./resources/js/my-script.js" defer></script>
     </body>
 </html>
