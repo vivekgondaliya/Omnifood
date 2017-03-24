@@ -40,5 +40,9 @@
 - GOAL: Decrease text size and white-space by increasing width or decreasing margins, font-size
 
 <768px
+- Stck content on top of each other for mobile device. col width is 100%
+- GOAL: Start with styles you already have and tweak the ones you want to change. Simple.
+
+
 
 <480px
