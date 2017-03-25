@@ -40,5 +40,31 @@ $(document).ready(function(){
           }
         }
       });
-});
+    });
+    
+    /* Animate */
+    $('.js--wp-features').waypoint(function(direction){
+        $('.js--wp-features').addClass('animated fadeIn');
+    }, {
+        offset :"50%;"
+    });
+
+    $('.js--wp-app-screen').waypoint(function(direction){
+        $('.js--wp-app-screen').addClass('animated fadeInUp');
+    }, {
+        offset :"50%;"
+    });
+    
+    $('.js--wp-cities').waypoint(function(direction){
+        $('.js--wp-cities').addClass('animated fadeIn');
+    }, {
+        offset :"50%;"
+    });
+    
+    $('.js--wp-premium-plan').waypoint(function(direction){
+        $('.js--wp-premium-plan').addClass('animated pulse');
+    }, {
+        offset :"50%;"
+    });
+
 });

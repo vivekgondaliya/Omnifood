@@ -601,3 +601,25 @@ footer p {
     text-align: center;
     font-size: 90%;
 }
+
+
+/*******************************************/
+/* ANIMATIONs */
+/******************************************/
+
+.js--wp-features,
+.js--wp-app-screen,
+.js--wp-cities{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-premium-plan{
+    animation-duration: 1s;
+}
+
+.js--wp-features.animated,
+.js--wp-app-screen.animated,
+.js--wp-cities.animated {
+    opacity: 1;
+}
