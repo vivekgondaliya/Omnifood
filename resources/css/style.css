@@ -231,6 +231,20 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
+
+/* Mobile Navigation */
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 30px;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: aliceblue;
+}
+
 /* STICKY HEADER */
 .sticky {
     position: fixed;
@@ -611,10 +625,12 @@ footer p {
 .js--wp-app-screen,
 .js--wp-cities{
     opacity: 0;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
 .js--wp-premium-plan{
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
