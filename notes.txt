@@ -46,3 +46,15 @@
 
 
 <480px
+
+
+/*************************/
+/* SEO */
+/*************************/
+
+- meta description
+- meta charste utf-8
+- W3C markup validation
+- Content is King : User want to read it. New Content. User come back for more.
+- Keywords : Title, Meta, headingd, Links
+- Backlinks: Other sites referring to our site
